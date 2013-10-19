@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "One Click Search",
+	"version": "1.0.0",
+	"description": "Search for selected text in a chosen website using right click context menu.",
+	"icons": {
+			"16": "img/icon16.png",
+        	"48": "img/icon48.png",
+        	"128": "img/icon128.png" },
+	"permissions": ["contextMenus","tabs"],
+	"author": "Kausar Mehmood",
+	"background": {
+    	"scripts": ["js/onesearch.js"]
+  	},
+	"options_page": "options.html"
+}

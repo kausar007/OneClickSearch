@@ -1,0 +1,71 @@
+html, body{
+	background: #fff;
+	font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#headr{
+  background: #fff;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#wrapper {
+  background: #999999;
+	margin: 0 auto;
+	width:50%;
+	
+}
+
+.left{
+  float: left;
+  width:50%;
+}
+.right{
+  float: right;
+  width: 50%
+}
+
+#engines {
+	border: 1px solid #ddd;
+  background: rgba(0,0,0,0.5);
+	margin-top: 1em;
+	padding: 10px;
+    
+}
+
+img{
+  display: inline-block;
+}
+#banner {
+  display: inline-block;
+}
+.myset h1
+{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.myset h1 span
+{
+    display: inline;
+    border: 1px solid #ddd;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    position: relative;
+    top: -1.5em;
+}
+
+button {
+	  float : right;
+      border: 0;
+      margin-top: 5px;
+      padding: 10px;
+      font-size: 18px;
+      background: #000000;
+      color: white;
+    }
